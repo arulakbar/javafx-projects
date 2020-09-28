@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75d98fea-6226-475c-9156-3a16ef3918c5" name="Default Changelist" comment="first commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hw8be5T93D1OjhsN0K2pqEsFVT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Spring/tutorials-master" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.Listview.ListviewApplication" />
+      <module name="Listview" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75d98fea-6226-475c-9156-3a16ef3918c5" name="Default Changelist" comment="" />
+      <created>1600910867068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600910867068</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add spring boot configuration">
+      <created>1600911320272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600911320272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Main UI">
+      <created>1600914109445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600914109445</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add JPA configuration">
+      <created>1600915239532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915239532</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Main Controller">
+      <created>1600915293973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915293973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add model Person">
+      <created>1600915313307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915313307</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initialize id">
+      <created>1600915829269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915829269</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PersonRepository added">
+      <created>1600915890570</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915890570</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initialize">
+      <created>1600915955841</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600915955841</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1601019434146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601019434160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Git/JavaFX/Listview/src/main/java/com/example/Listview" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add spring boot configuration" />
+    <MESSAGE value="Add Main UI" />
+    <MESSAGE value="Add JPA configuration" />
+    <MESSAGE value="Add Main Controller" />
+    <MESSAGE value="Add model Person" />
+    <MESSAGE value="initialize id" />
+    <MESSAGE value="PersonRepository added" />
+    <MESSAGE value="initialize" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="143" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600911220449">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="143" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1600911220449" />
+    <state x="494" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1600998577519">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="494" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1600998577519" />
+    <state x="418" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600911214364">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="418" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1600911214364" />
+    <state x="226" y="125" key="FileChooserDialogImpl" timestamp="1601257098264">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="226" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1601257098264" />
+    <state width="1214" height="175" key="GridCell.Tab.0.bottom" timestamp="1601019465801">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1214" height="175" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601019465801" />
+    <state width="1214" height="175" key="GridCell.Tab.0.center" timestamp="1601019465800">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1214" height="175" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601019465800" />
+    <state width="1214" height="175" key="GridCell.Tab.0.left" timestamp="1601019465800">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1214" height="175" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601019465800" />
+    <state width="1214" height="175" key="GridCell.Tab.0.right" timestamp="1601019465801">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1214" height="175" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601019465801" />
+    <state x="522" y="103" key="RollbackChangesDialog" timestamp="1601015309678">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="522" y="103" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1601015309678" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1600911112666">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600911112666" />
+    <state x="492" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600914468318">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="492" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1600914468318" />
+  </component>
+</project>

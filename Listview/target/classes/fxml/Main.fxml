@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Listview.controller.PersonController">
+   <children>
+      <SplitPane dividerPositions="0.3294314381270903" prefHeight="400.0" prefWidth="681.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="listview" layoutY="14.0" onMouseClicked="#handleMouseAction" prefHeight="384.0" prefWidth="226.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="461.0">
+               <children>
+                  <GridPane layoutY="1.0" onMouseClicked="#unselectModel" prefHeight="398.0" prefWidth="452.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="186.0" minWidth="10.0" prefWidth="142.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="305.0" />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="151.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="220.0" minHeight="10.0" prefHeight="220.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Text fx:id="txtFirstName" fill="#f50202" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                           <GridPane.margin>
+                              <Insets top="40.0" />
+                           </GridPane.margin>
+                        </Text>
+                        <TextField fx:id="txtFieldFirst" maxWidth="1.7976931348623157E308" onMouseClicked="#clearText" GridPane.columnIndex="1" GridPane.columnSpan="2">
+                           <GridPane.margin>
+                              <Insets right="20.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Label text="Last Name" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets right="30.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Notes" GridPane.halignment="RIGHT" GridPane.rowSpan="3" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets right="30.0" top="100.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <ButtonBar prefHeight="132.0" prefWidth="336.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                          <buttons>
+                              <Button fx:id="btnNew" layoutX="100.0" layoutY="29.0" mnemonicParsing="false" onAction="#addPerson" text="Insert" translateX="-50.0" />
+                              <Button fx:id="btnUpdate" layoutX="68.0" layoutY="29.0" mnemonicParsing="false" onAction="#updatePerson" text="Update" translateX="-35.0" />
+                            <Button fx:id="btnDelete" mnemonicParsing="false" onAction="#deletePerson" text="Delete" translateX="-20.0" />
+                          </buttons>
+                        </ButtonBar>
+                        <Label contentDisplay="RIGHT" text="First Name" GridPane.halignment="RIGHT">
+                           <GridPane.margin>
+                              <Insets right="30.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <TextField fx:id="txtFieldLast" layoutX="158.0" layoutY="21.0" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets right="20.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextArea fx:id="txtAreaNotes" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="15.0" right="20.0" top="15.0" />
+                           </GridPane.margin>
+                        </TextArea>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
